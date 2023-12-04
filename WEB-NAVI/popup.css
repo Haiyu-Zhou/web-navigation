@@ -1,0 +1,17 @@
+body{
+    width: 600px;
+    height: 600px;
+}
+main{
+    position: relative;
+}
+div.history-items{
+position: relative;
+}
+
+
+a:hover{
+    filter: drop-shadow(1px 1px 0px rgb(255, 255, 255));
+    vertical-align: top;
+z-index: 10000;
+}
