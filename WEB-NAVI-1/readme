@@ -1,9 +1,1 @@
-1. The different purpose of content.js and popup.js
-Content scripts  primarily interact with the web pages, while popup scripts handle the behavior and interactions within the extension's popup UI.
-2. the history has to be searched in background.js
-3. the maximum size of popup is 600 x 600 px
-
-problems:
-1. link not working // wrap <div> inside <a>
-2. how to read domain names in the url? in order to catagorize them --- clicked times to size
-
+This version gives random color on data of last 24 hour
