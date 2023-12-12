@@ -29,12 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const lastHourbtn = document.getElementById('lastHour');
     lastHourbtn.addEventListener('click', function () {
+        console.log('test 1');
         historyDiv.innerHTML = '';
         chrome.runtime.sendMessage({ action: 'getLastHour' }, function (response) {
             generateVisual(response);
         });
     });
-    const lastDaybtn = document.getElementById('last24Hour');
+    const lastDaybtn = document.getElementById('last24Hours');
     lastDaybtn.addEventListener('click', function () {
         historyDiv.innerHTML = '';
         chrome.runtime.sendMessage({ action: 'getLast24Hour' }, function (response) {
